@@ -1,2 +1,3 @@
-# anthonyberg-website
-My portfolio website created in Next.js with Nextra
+# Anthony Berg Portfolio
+
+This is my own personal portfolio made with Next.js and the Nextra framework.
