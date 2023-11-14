@@ -1,4 +1,7 @@
 {
+  "name": "anthonyberg-website",
+  "version": "0.1.0",
+  "description": "A website for my own portfolio",
   "private": true,
   "scripts": {
     "dev": "next",
