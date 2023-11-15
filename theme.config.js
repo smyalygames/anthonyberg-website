@@ -1,10 +1,13 @@
+import Link from "next/link";
+
 const YEAR = new Date().getFullYear()
 
 export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Anthony Berg.
+          <Link href={"https://github.com/smyalygames/anthonyberg-website/blob/main/LICENSE"}><time>{YEAR}</time> © Anthony Berg.</Link>
+          <a href={"https://github.com/smyalygames/anthonyberg-website/"}>GitHub Repository</a>
       </small>
       <style jsx>{`
         footer {
