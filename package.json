@@ -4,9 +4,14 @@
   "description": "A website for my own portfolio",
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
