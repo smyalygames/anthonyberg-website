@@ -11,7 +11,7 @@
     "start": "next start"
   },
   "engines": {
-    "node": ">=22.0.0",
+    "node": ">=20.x",
     "pnpm": ">=8"
   },
   "dependencies": {
