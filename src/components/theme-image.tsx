@@ -6,7 +6,7 @@ export type Props = Omit<ImageProps, 'src' | 'priority' | 'loading'> & {
     srcDark: string
 }
 
-export const ThemeImage = (props: Props) => {
+export function ThemeImage(props: Props)  {
     const { srcLight, srcDark, ...rest } = props
 
     return (

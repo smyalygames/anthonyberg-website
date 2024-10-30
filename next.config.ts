@@ -1,13 +1,13 @@
 import nextra from 'nextra'
+import type { NextConfig } from 'next'
 
 const withNextra = nextra({
   theme: 'nextra-theme-blog',
-  themeConfig: './theme.config.js',
+  themeConfig: './src/theme.config.tsx',
   // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
 })
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   // any configs you need
 }
 
