@@ -37,7 +37,7 @@ export default async function RootLayout({
             dir="ltr"
             suppressHydrationWarning
         >
-        <Head backgroundColor={{dark: '#0f172a', light: '#fefce8'}} />
+        <Head backgroundColor={{dark: '#111111', light: '#fafafa'}} />
         <body>
         <Layout>
             <Navbar pageMap={await getPageMap()}>
