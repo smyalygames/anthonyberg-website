@@ -1,3 +1,5 @@
+"use client"
+
 import styles from './theme-image.module.css'
 import Image, { ImageProps } from 'next/image'
 

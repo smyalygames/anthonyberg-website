@@ -2,13 +2,15 @@ import nextra from 'nextra'
 import type { NextConfig } from 'next'
 
 const withNextra = nextra({
-  theme: 'nextra-theme-blog',
-  themeConfig: './src/theme.config.tsx',
-  // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
+    // ... Other Nextra config options
+    search: false
 })
 
 const nextConfig: NextConfig = {
-  // any configs you need
+    // any configs you need
+    turbopack: {
+        resolveExtensions: ['.mdx', '.tsx', '.ts', '.jsx', '.js', '.mjs', '.json'],
+    },
 }
 
 export default withNextra(nextConfig)
