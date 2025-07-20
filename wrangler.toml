@@ -1,7 +1,11 @@
 main = ".open-next/worker.js"
-name = "anthonyberg-website"
+name = "anthonyberg"
 compatibility_date = "2025-03-25"
 compatibility_flags = ["nodejs_compat"]
+routes = [
+    { pattern = "anthonyberg.io", custom_domain = true },
+    { pattern = "www.anthonyberg.io", custom_domain = true }
+]
 
 [assets]
 directory = ".open-next/assets"
