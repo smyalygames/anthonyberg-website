@@ -1,8 +1,6 @@
 import { getPosts } from '../posts/get-posts'
 
 
-export const runtime = 'edge';
-
 const CONFIG = {
     title: 'Anthony\'s Blog',
     siteUrl: 'https://anthonyberg.io',

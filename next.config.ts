@@ -8,9 +8,9 @@ const withNextra = nextra({
 
 const nextConfig: NextConfig = {
     // any configs you need
-    turbopack: {
-        resolveExtensions: ['.mdx', '.tsx', '.ts', '.jsx', '.js', '.mjs', '.json'],
-    },
 }
 
 export default withNextra(nextConfig)
+
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();

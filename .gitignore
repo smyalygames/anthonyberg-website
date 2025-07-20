@@ -9,6 +9,12 @@
 # testing
 /coverage
 
+# wrangler
+/.wrangler/
+
+# OpenNext
+/.open-next/
+
 # next.js
 /.next/
 /out/
